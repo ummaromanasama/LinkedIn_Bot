@@ -57,12 +57,6 @@ logIn()
 #---------------------------Connect & Add a note--------------------------------------------------
 #Search for people
 names = ['Joanna Mira-Villa', 'Jorge Gallardo']
- 
-#Need to send message with just first name
-firstName = []
-for i in range(0,len(names)):
-    firstName.append(names[i].split()[0])
-sleep(1.5)
 
 for name in names:
 
