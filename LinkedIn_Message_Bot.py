@@ -19,31 +19,35 @@ sleep(1.5)
 
 #Search for people
 names = ['Insert names']
+ctr = 0
 
-#Lookup names, add a note, and send connection request
+#Customize message
+message = 'Insert message'
+
+#Lookup names and send messages
 for name in names:
 
-    #Lookup name
     browser.find_element_by_xpath("//input[@type = 'text']").send_keys(name)
     sleep(1.5)
     browser.find_element_by_xpath("//input[@type = 'text']").send_keys(Keys.RETURN)
     sleep(1.5)
-    
-    #Add a Note
-    browser.find_element_by_xpath("//button[text() = 'Connect']").click()
-    sleep(1.5)
-    browser.find_element_by_xpath("//span[text()='Add a note']").click()
+
+    browser.find_element_by_xpath("//button[text() = 'Message']").click()
+    sleep(1)
+
+    if ctr == 0:
+        browser.find_element_by_xpath("//div[@role = 'textbox']").send_keys(message)
+    else:
+        browser.find_elements_by_xpath("//div[@role = 'textbox']")[ctr].send_keys(message)
     sleep(1.5)
 
-    message = "Hi " + name.strip().split(' ')[0] + ",\n\nI'm testing out my LinkedIn Bot!\n\nBest regards,\nUmmaromana Sama"
+    if ctr == 0:
+        browser.find_element_by_xpath("//button[@type = 'submit']").click()
+    else:
+        browser.find_elements_by_xpath("//button[@type = 'submit']")[ctr].click()
 
-    browser.find_element_by_xpath("//textarea").send_keys(message)
-    sleep(1.5)
+    ctr += 1
 
-    browser.find_element_by_xpath("//span[text()='Done']").click()
-    sleep(1.5)
+    sleep(1)
 
     browser.find_element_by_xpath("//input[@type = 'text']").clear()
-    sleep(1.5)
-
-   
