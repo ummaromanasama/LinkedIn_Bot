@@ -56,7 +56,7 @@ logIn()
 
 #---------------------------Connect & Add a note--------------------------------------------------
 #Search for people
-names = ['Rakib Rary', 'Michelle Yu', 'Matthew Chon']
+names = ['Joanna Mira-Villa', 'Jorge Gallardo']
  
 #Need to send message with just first name
 firstName = []
@@ -76,7 +76,7 @@ for name in names:
     browser.find_element_by_xpath("//span[text()='Add a note']").click()
     sleep(1.5)
 
-    message = "Hi " + name + ",\n\nI'm super excited to be apart of The Animation Project’s Internship Program and looking forward to the coming months!\n\nBest regards,\nUmmaromana Sama"
+    message = "Hi " + name.strip().split(' ')[0] + ",\n\nI'm testing out my LinkedIn Bot!\n\nBest regards,\nUmmaromana Sama"
 
     browser.find_element_by_xpath("//textarea").send_keys(message)
 
