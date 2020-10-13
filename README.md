@@ -14,7 +14,8 @@ N/A
 N/A
 
 **Lets Connect!** 🔗
-LinkedIn: [https://www.linkedin.com/in/ummaromanasama](https://www.linkedin.com/in/ummaromanasama/)/
-Website: [https://www.romanatized.com/](https://www.romanatized.com/)
-Twitter: [https://twitter.com/Romanatized](https://twitter.com/Romanatized)
-Instagram: [https://www.instagram.com/romanatized/](https://www.instagram.com/romanatized/?hl=en)
+
+LinkedIn: [https://www.linkedin.com/in/ummaromanasama](https://www.linkedin.com/in/ummaromanasama/) <br/>
+Website: [https://www.romanatized.com/](https://www.romanatized.com/) <br/>
+Twitter: [https://twitter.com/Romanatized](https://twitter.com/Romanatized) <br/>
+Instagram: [https://www.instagram.com/romanatized/](https://www.instagram.com/romanatized/?hl=en) <br/>
