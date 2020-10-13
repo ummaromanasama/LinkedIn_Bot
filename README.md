@@ -13,7 +13,7 @@ N/A
 **Final Thoughts** 🧠
 N/A
 
-**Lets Connect!** 🔗
+**Let's Connect!** 🔗
 
 LinkedIn: [https://www.linkedin.com/in/ummaromanasama](https://www.linkedin.com/in/ummaromanasama/) <br/>
 Website: [https://www.romanatized.com/](https://www.romanatized.com/) <br/>
