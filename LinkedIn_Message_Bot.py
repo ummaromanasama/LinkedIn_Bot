@@ -21,9 +21,6 @@ sleep(1.5)
 names = ['Insert names']
 ctr = 0
 
-#Customize message
-message = 'Insert message'
-
 #Lookup names and send messages
 for name in names:
 
@@ -34,6 +31,9 @@ for name in names:
 
     browser.find_element_by_xpath("//button[text() = 'Message']").click()
     sleep(1)
+    
+    #Customize message
+    message = "Hi " + name.strip().split(' ')[0] + ",\n\nHope all is well!\n\nBest regards,\nUmmaromana Sama"
 
     if ctr == 0:
         browser.find_element_by_xpath("//div[@role = 'textbox']").send_keys(message)
