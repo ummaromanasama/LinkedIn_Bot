@@ -18,7 +18,7 @@ browser.find_element_by_xpath("//button[@type = 'submit']").click()
 sleep(1.5)
 
 #Search for people
-names = ['Insert names']
+names = ['Insert upto 4 names at a time']
 ctr = 0
 
 #Lookup names and send messages
