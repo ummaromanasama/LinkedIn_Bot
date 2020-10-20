@@ -7,6 +7,7 @@ In the formulation of this program, I utilized **Python** as my choice of progra
 
 **Rundown** ✨ </br>
 ![](images/LinkedIn_Connection.gif)
+![](images/LinkedIn_Message.gif)
 
 **Final Thoughts** 🧠 </br>
 N/A
