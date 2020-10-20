@@ -6,7 +6,7 @@ The LinkedIn_Connection_Bot essentially provides a hand in allowing the user to 
 In the formulation of this program, I utilized **Python** as my choice of programming language to integrate **Selenium** to communicate with the web browser and for testing purposes. For my choice of the web browser, I selected Google Chrome which meant I needed to use the **ChromeDriver**. The WebDriver allowed me to obtain control and navigate through LinkedIn's web pages.  
 
 **Rundown** ✨ </br>
-N/A
+![](images/LinkedInConnection.gif)
 
 **Final Thoughts** 🧠 </br>
 N/A
