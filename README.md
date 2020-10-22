@@ -15,7 +15,7 @@ On display here is the LinkedIn_Message_Bot.py in motion:
 ![](images/LinkedIn_Message.gif)
 
 **Final Thoughts** 🧠 </br>
-Realistically speaking, I will be utilizing the following programs when I attend networking events where I meet a handful of people who I want to connect with via LinkedIn. In addition, I would run the scripts if I wanted to send a message to a subgroup of people about a particular subject.
+Realistically speaking, I will be utilizing the following scripts after attending a networking event where I meet a handful of people who I want to connect with via LinkedIn. In addition, I would run the program if I wanted to send a message to a subgroup of people about a particular subject in question such as information about a companies internship program.
 
 ---
 **Let's Connect!** 🔗 </br>
